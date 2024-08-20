@@ -52,6 +52,27 @@ const styles = StyleSheet.create({
     width: '100%',
     height: '100%'
   },
+  kakaoImage: {
+    position: 'absolute',
+    bottom:'12%',
+    left: '5%',
+    width: '90%',
+    height: '16%'
+  },
+  nextButton: {
+    position: 'absolute',
+    right: '5%',
+    top: '45%',
+    width: 0,
+    height: 0,
+    borderLeftWidth: 10,
+    borderRightWidth: 10,
+    borderBottomWidth: 20,
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    borderBottomColor: 'black',
+    transform: [{ rotate: '90deg' }],
+  }
 });
 
 export default styles;
